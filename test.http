@@ -1,0 +1,21 @@
+###
+GET http://localhost:4000/
+
+###
+POST http://localhost:4000/predict
+Content-Type: application/json
+
+{
+    "sentiment": 0,
+    "postLength": 130,
+    "hashTagCount": 0,
+    "contentURLCount": 1,
+    "likeCount": 15208,
+    "shareCount": 31,
+    "commentCount": 0,
+    "followersCount": 2445229999999,
+    "followingCount": 243,
+    "tweetCount": 45542,
+    "gender": 1,
+    "secondsElapsed": 5812868
+}
